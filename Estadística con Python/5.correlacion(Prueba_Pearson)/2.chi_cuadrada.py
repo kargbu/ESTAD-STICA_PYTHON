@@ -25,3 +25,19 @@ import matplotlib.pyplot as plt
 # Definimos la tabla
 datos = [[18, 25, 32, 22, 33], [30,30,30,30,30]]
 print(chisquare(datos[0],datos[1]))
+# La función chisquare devuelve chi" y el valor p de la prueba
+
+'''
+Para realizar una prueba chi-cuadrado necesitamos conocer un par de términos más.
+dof: grado de libertad
+significance level: se utiliza con nuestro dof para obtener nuestro valor crítico.
+critical region: es el valor que obtenemos de nuestra tabla chi y que se utiliza para 
+determinar dónde empieza nuestra región crítica
+critical region: La región crítica define a qué distancia puede estar el estadístico
+de nuestra muestra del valor de la hipótesis nula antes de que podamos decir que es 
+lo suficientemente inusual como para rechazar la hipótesis nula. Si nuestro resultado 
+chi está en la región sombreada del gráfico o es mayor que nuestro valor crítico, 
+rechazamos la hipótesis nula. De lo contrario, no rechazamos la hipótesis nula.
+El chi-cuadrado prueba si existen relaciones entre variables categóricas estimando
+lo bien que se ajustan.
+'''
