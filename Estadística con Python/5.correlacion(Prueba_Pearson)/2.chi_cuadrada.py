@@ -41,3 +41,5 @@ rechazamos la hipótesis nula. De lo contrario, no rechazamos la hipótesis nula
 El chi-cuadrado prueba si existen relaciones entre variables categóricas estimando
 lo bien que se ajustan.
 '''
+
+
