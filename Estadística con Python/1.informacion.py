@@ -26,3 +26,6 @@ print(sta.mean(data.hora_de_inicio))
 print(sta.median(data.hora_de_inicio))
 print(sta.mode(data.hora_de_inicio))
 print(max(data.hora_de_inicio)- min(data.hora_de_inicio))
+
+# Para contar de una columna la media print(sta.mean(data[data['Zombies']==True].age))
+#print(sta.mean(data[data['Zombies']==False].age) y para contar los infectados en la localidad
